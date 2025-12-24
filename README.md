@@ -1,21 +1,35 @@
-🏙️ Urban Micro-Climate Predictor (UHI)
-Precision Machine Learning for Sustainable Urban Planning
+**🏙️ Urban Micro-Climate Predictor (UHI)
+Precision Machine Learning for Sustainable Urban Planning**
 !
 
-📌 Project Overview
+
+
+
+
+
+**📌 Project Overview**
+
+	
 As cities grow, the Urban Heat Island (UHI) effect becomes a critical climate challenge. This project provides a hyper-local Machine Learning solution to predict temperature variances at the street level.
 
 Unlike general weather apps, this model uses urban morphology—building density, green cover, and proximity to water—to predict exactly how much hotter a specific city block will be compared to the regional average.
 
-🚀 Unique Features
+	
+**🚀 Unique Features**
+
+
 Hyper-Local Prediction: Street-level resolution instead of city-wide averages.
 
 Actionable Insights: Helps urban planners decide exactly where to plant trees or install reflective surfaces to reduce heat.
 
 Custom Synthetic Dataset: Uses a physically-informed synthetic dataset (1,000+ points) designed to mimic real-world urban thermal behavior.
 
-🛠️ Tech Stack
-Language: Python 3.x
+
+
+**🛠️ Tech Stack**
+
+
+Language: Python 3.11
 
 ML Framework: XGBoost (Gradient Boosting)
 
@@ -25,7 +39,11 @@ Deployment: Flask (Web Framework)
 
 Serialization: Joblib (Pickle format)
 
-📊 The Data
+
+
+**📊 The Data**
+
+
 The dataset (urban_heat_data.csv) includes the following features:
 
 Building Density: Ratio of concrete/built area.
@@ -40,7 +58,11 @@ Avg Regional Temp: Baseline ambient temperature.
 
 Target Variable: micro_temp_increase (Celsius variance).
 
-💻 Installation & Setup
+
+
+**💻 Installation & Setup**
+
+
 1. Clone the repository
 Bash
 
@@ -62,22 +84,45 @@ Bash
 python app.py
 Open your browser and navigate to http://127.0.0.1:5000/.
 
-🧠 Model Performance
+
+
+**🧠 Model Performance**
+
+
 The model utilizes XGBoost Regressor, optimized for tabular data.
 
 Mean Absolute Error (MAE): ~0.45°C
 
 R² Score: ~0.89
 
-📂 Project Structure
+
+
+**📂 Project Structure**
+
+
 Plaintext
 
-├── app.py                 # Flask Web Application
-├── complete_project.py    # Data generation, training, and .pkl export
-├── urban_heat_model.pkl   # Saved ML Model
-├── urban_heat_data.csv    # Generated Dataset
-├── requirements.txt       # List of libraries
+├── app.py                                
+
+
+├── complete_project.py                   
+
+
+├── urban_heat_model.pkl                  
+
+
+├── urban_heat_data.csv                   
+
+
+├── requirements.txt                       
+
+
 └── templates/
-    └── index.html         # Frontend UI
+    
+    
+    └── index.html                        
+    
+
+
 🤝 Contributing
 Contributions are welcome! If you have ideas for adding satellite image processing or more complex features (like wind speed), feel free to fork this repo.

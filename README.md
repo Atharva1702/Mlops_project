@@ -1,21 +1,52 @@
+<<<<<<< HEAD
 🏙️ Urban Micro-Climate Predictor (UHI)
 Precision Machine Learning for Sustainable Urban Planning
 !
 
 📌 Project Overview
+=======
+**🏙️ Urban Micro-Climate Predictor (UHI)
+Precision Machine Learning for Sustainable Urban Planning**
+!
+
+
+
+
+
+
+**📌 Project Overview**
+
+	
+>>>>>>> 9743be9e879c75f4aa62d7b7ea8606aa908d8143
 As cities grow, the Urban Heat Island (UHI) effect becomes a critical climate challenge. This project provides a hyper-local Machine Learning solution to predict temperature variances at the street level.
 
 Unlike general weather apps, this model uses urban morphology—building density, green cover, and proximity to water—to predict exactly how much hotter a specific city block will be compared to the regional average.
 
+<<<<<<< HEAD
 🚀 Unique Features
+=======
+	
+**🚀 Unique Features**
+
+
+>>>>>>> 9743be9e879c75f4aa62d7b7ea8606aa908d8143
 Hyper-Local Prediction: Street-level resolution instead of city-wide averages.
 
 Actionable Insights: Helps urban planners decide exactly where to plant trees or install reflective surfaces to reduce heat.
 
 Custom Synthetic Dataset: Uses a physically-informed synthetic dataset (1,000+ points) designed to mimic real-world urban thermal behavior.
 
+<<<<<<< HEAD
 🛠️ Tech Stack
 Language: Python 3.x
+=======
+
+
+**🛠️ Tech Stack**
+
+
+Language: Python 3.11
+>>>>>>> 9743be9e879c75f4aa62d7b7ea8606aa908d8143
 
 ML Framework: XGBoost (Gradient Boosting)
 
@@ -25,7 +56,15 @@ Deployment: Flask (Web Framework)
 
 Serialization: Joblib (Pickle format)
 
+<<<<<<< HEAD
 📊 The Data
+=======
+
+
+**📊 The Data**
+
+
+>>>>>>> 9743be9e879c75f4aa62d7b7ea8606aa908d8143
 The dataset (urban_heat_data.csv) includes the following features:
 
 Building Density: Ratio of concrete/built area.
@@ -40,7 +79,15 @@ Avg Regional Temp: Baseline ambient temperature.
 
 Target Variable: micro_temp_increase (Celsius variance).
 
+<<<<<<< HEAD
 💻 Installation & Setup
+=======
+
+
+**💻 Installation & Setup**
+
+
+>>>>>>> 9743be9e879c75f4aa62d7b7ea8606aa908d8143
 1. Clone the repository
 Bash
 
@@ -62,13 +109,22 @@ Bash
 python app.py
 Open your browser and navigate to http://127.0.0.1:5000/.
 
+<<<<<<< HEAD
 🧠 Model Performance
+=======
+
+
+**🧠 Model Performance**
+
+
+>>>>>>> 9743be9e879c75f4aa62d7b7ea8606aa908d8143
 The model utilizes XGBoost Regressor, optimized for tabular data.
 
 Mean Absolute Error (MAE): ~0.45°C
 
 R² Score: ~0.89
 
+<<<<<<< HEAD
 📂 Project Structure
 Plaintext
 
@@ -81,3 +137,36 @@ Plaintext
     └── index.html         # Frontend UI
 🤝 Contributing
 Contributions are welcome! If you have ideas for adding satellite image processing or more complex features (like wind speed), feel free to fork this repo.
+=======
+
+
+**📂 Project Structure**
+
+
+Plaintext
+
+├── app.py                                
+
+
+├── complete_project.py                   
+
+
+├── urban_heat_model.pkl                  
+
+
+├── urban_heat_data.csv                   
+
+
+├── requirements.txt                       
+
+
+└── templates/
+    
+    
+    └── index.html                        
+    
+
+
+🤝 Contributing
+Contributions are welcome! If you have ideas for adding satellite image processing or more complex features (like wind speed), feel free to fork this repo.
+>>>>>>> 9743be9e879c75f4aa62d7b7ea8606aa908d8143

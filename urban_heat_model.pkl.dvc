@@ -1,0 +1,5 @@
+outs:
+- md5: dd8dc28b96ec6e1144151e0c7ebaf29d
+  size: 266172
+  hash: md5
+  path: urban_heat_model.pkl
